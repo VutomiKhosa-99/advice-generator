@@ -32,6 +32,8 @@
   display: flex;
   align-items: center;
   height: 582px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button {
