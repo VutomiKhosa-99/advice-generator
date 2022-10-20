@@ -27,6 +27,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
+        <div className="logo">
+          <img src="./images/logo.svg" height="40px" />
+        </div>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
           <button className="button" onClick={this.fetchAdvice}>
