@@ -18,8 +18,8 @@
 
 .card {
   background: whitesmoke;
-  width: 40%;
-  height: 20%;
+  width: 60%;
+  height: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -51,6 +51,7 @@
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid rgba(22, 76, 167, 0.6);
+  margin-bottom: 4px;
 }
   
 .button span {
