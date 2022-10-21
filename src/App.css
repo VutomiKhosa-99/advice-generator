@@ -13,7 +13,7 @@
 .App-header {
   flex-direction: column;
   min-height: 100vh;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./image/city.jpg');
+  background-color: #282c34;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -52,7 +52,7 @@
   flex-direction: column;
   border-radius: 25px;
   padding: 2%;
-  box-shadow: 10px 10px;
+  box-shadow: 8px 8px;
 }
 
 .heading {
