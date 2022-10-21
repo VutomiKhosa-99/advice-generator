@@ -28,7 +28,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="logo">
-        <img src="./images/logo.png" />
+        <img src="../images/logo.png" />
         </div>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
