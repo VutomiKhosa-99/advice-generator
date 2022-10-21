@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       
       <div className="app">
-        <header className="header">
+        <header className="App-logo">
           <img src={logo} alt="website logo" />
         </header>
         <div className="card">
