@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
+
 import './App.css';
 
 class App extends React.Component {
@@ -26,10 +27,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="app">
-        <div className="logo">
-        <img src="../images/logo.png" alt="logo"/>
+      <>
+      <div className="logo">
+        <img src="./image/logo.png" alt="logo"/>
         </div>
+      <div className="app">
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
           <button className="button" onClick={this.fetchAdvice}>
@@ -37,6 +39,7 @@ class App extends React.Component {
           </button>
         </div>
       </div>
+      </>
     );
   }
 }
