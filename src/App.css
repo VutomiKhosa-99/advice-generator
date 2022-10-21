@@ -5,6 +5,26 @@
   box-sizing: border-box;
 }
 
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./image/city.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,17 +45,6 @@
   }
 }
 
-
-.app {
-  height: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./image/city.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 .card {
   background: whitesmoke;

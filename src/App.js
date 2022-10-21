@@ -29,9 +29,9 @@ class App extends React.Component {
   render() {
     return (
       
-      <div className="app">
-        <header className="App-logo">
-          <img src={logo} alt="website logo" />
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} alt="website logo" className="App-logo" />
         </header>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
