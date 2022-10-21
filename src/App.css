@@ -46,8 +46,7 @@
 
 .card {
   background: whitesmoke;
-  width: 60%;
-  height: 30%;
+  height: 40vmin;
   display: flex;
   align-items: center;
   flex-direction: column;
