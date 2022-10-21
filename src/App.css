@@ -12,6 +12,7 @@
 
 .App-header {
   flex-direction: column;
+  height: 100vh;
   background-color: #282c34;
   background-size: cover;
   background-position: center;
@@ -45,8 +46,8 @@
 
 .card {
   background: whitesmoke;
-  height: 40vmin;
-  width: 60vmin;
+  height: 40%;
+  width: 60%;
   display: flex;
   align-items: center;
   flex-direction: column;
