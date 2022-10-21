@@ -27,6 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
+        <nav className="logo"></nav>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
           <button className="button" onClick={this.fetchAdvice}>
