@@ -32,13 +32,13 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} alt="website logo" className="App-logo" />
-        </header>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
           <button className="button" onClick={this.fetchAdvice}>
             <span>GIVE ME ADVICE!</span>
           </button>
         </div>
+        </header>
       </div>
       
     );
