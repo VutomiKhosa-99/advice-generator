@@ -32,6 +32,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} alt="website logo" className="App-logo" />
+          <p>Click "GIVE ME ADVICE" button to get random cool advice. </p>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
           <button className="button" onClick={this.fetchAdvice}>
