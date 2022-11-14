@@ -31,6 +31,12 @@
   pointer-events: none;
 }
 
+p {
+  width: 360px;
+}
+
+
+
 .card {
   background: #09254b;
   height: 40%;
@@ -84,4 +90,11 @@
 .button:hover span {
   animation: storm 0.7s ease-in-out both;
   animation-delay: 0.06s;
+}
+  
+@media only screen and (max-width: 600px) {
+  .card {
+      width: 80%;
+      height: 30%;
+  }
 }
