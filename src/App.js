@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 import './App.css';
-import logo from "./app-logo1.png"
+//import logo from "./app-logo1.png"
 
 class App extends React.Component {
   state = {
@@ -31,7 +31,7 @@ class App extends React.Component {
       
       <div className="App">
         <header className="App-header">
-          <img src={logo} alt="website logo" className="App-logo" />
+          {/* <img src={logo} alt="website logo" className="App-logo" /> */}
           <p>Click "GIVE ME ADVICE" button to get random cool advice. </p>
         <div className="card">
           <h2 className="heading">{this.state.advice}</h2>
